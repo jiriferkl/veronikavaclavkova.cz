@@ -13,7 +13,4 @@ export default defineNuxtConfig({
       title: "Veronika Václavková - Grafický designer"
     },
   },
-  image: {
-    provider: 'ipx'
-  }
 })
