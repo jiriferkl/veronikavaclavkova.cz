@@ -1,5 +1,9 @@
 name: Deploy Nuxt site to Pages
 
+defaults:
+  run:
+    working-directory: ./app
+    
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -19,10 +23,6 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
-defaults:
-  run:
-    working-directory: ./app
 
 jobs:
   # Build job
