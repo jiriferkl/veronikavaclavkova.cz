@@ -24,7 +24,7 @@ export default defineNuxtComponent({
           subGalleries: [
             {
               id: "gallery3d-cervena-lhota",
-              title: "Červená lhota",
+              title: "Červená Lhota",
               images: [
                 {
                   src: '/portfolio/3d/cervena_lhota/cervenalhota.jpg',
