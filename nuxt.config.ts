@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     'nuxt-simple-sitemap',
+    '@nuxtjs/robots',
   ],
   app: {
     head: {
