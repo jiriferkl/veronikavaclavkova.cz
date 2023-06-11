@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
+    'nuxt-simple-sitemap',
   ],
   app: {
     head: {
@@ -25,5 +26,8 @@ export default defineNuxtConfig({
         { name: 'twitter:image', content: 'https://veronikavaclavkova.cz/ogimage.png' },
       ],
     },
+  },
+  sitemap: {
+    siteUrl: 'https://veronikavaclavkova.cz/',
   },
 })

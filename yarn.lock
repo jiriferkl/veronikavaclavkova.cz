@@ -4652,6 +4652,21 @@ nuxi@3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
+nuxt-simple-sitemap@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-2.6.2.tgz#911aa9ea4c68998034fdb33f147f0b656750c5ea"
+  integrity sha512-jM1uiIqRuVGiGOUtpq4ZveZjb2QbA9EyqxAeh87lOey+2CjvStIKqIwWmkAN77nYdDoYPMLnIgEkfatdBPoi6g==
+  dependencies:
+    "@nuxt/kit" "3.5.3"
+    chalk "^5.2.0"
+    defu "^6.1.2"
+    escape-string-regexp "^5.0.0"
+    globby "^13.1.4"
+    knitwork "^1.0.0"
+    pathe "^1.1.1"
+    radix3 "^1.0.1"
+    ufo "^1.1.2"
+
 nuxt@^3.5.2:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.5.3.tgz#2997a62b8c1088c4b8eeae358838732f5dad0653"
