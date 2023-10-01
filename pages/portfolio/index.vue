@@ -2,7 +2,7 @@
   <div class="bg-white text-black px-10 pb-10">
     <div class="container mx-auto">
       <h1 class="text-5xl mb-4 text-center mt-8">Portfolio</h1>
-      <h2 class="text-3xl text-center mt-12">{{ portfolio.title }}</h2>
+      <PortfolioNav />
 
       <div v-for="(subgallery, subgalleryKey) in portfolio.subGalleries" :key="subgalleryKey">
         <h3 class="text-2xl mt-5 mb-2 text-center sm:text-left">{{ subgallery.title }}</h3>
@@ -17,7 +17,6 @@ export default defineNuxtComponent({
   data() {
     return {
       portfolio: {
-        title: "2D grafika",
         subGalleries: [
           {
             id: "gallery2d-materials",
