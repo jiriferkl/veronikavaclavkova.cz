@@ -111,8 +111,20 @@ export default defineNuxtComponent({
     return {
       experience: [
         {
+          "position": "3D publikátor",
+          "years": "12.2023 - současnost",
+          "place": "Praha",
+          "url": "https://3d-mon.com/",
+          "company": "3Demon",
+          "description": [
+            "Ve firmě pracuji na pozici 3D publikátor. Zabývám se především texturováním a renderováním 3D objektů. Dále se věnuji fotografování, postprocesingu a publikování modelů na webu.",
+          ],
+          "badges": [],
+          "logo": "/companies/3demon.png"
+        },
+        {
           "position": "Člen marketingového týmu",
-          "years": "8.2021 - současnost",
+          "years": "8.2021 - 9.2023",
           "place": "Pardubice",
           "url": "https://www.dfmarketing.cz/",
           "company": "DF marketing",
